@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="#ECF2F0">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Chicken">
+
+        <ImageView
+            android:id="@+id/imageChicken"
+            android:layout_width="0dp"
+            android:layout_height="366dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chicken" />
+
+        <TextView
+            android:id="@+id/tChickenTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/chicken_title"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageChicken"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tChickenServedAt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/chicken_served_at"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tChickenTitle" />
+
+        <TextView
+            android:id="@+id/tChickenServedAtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/chicken_served_at_description"
+            app:layout_constraintTop_toBottomOf="@+id/tChickenServedAt"/>
+
+        <TextView
+            android:id="@+id/tChickenServedTime"
+            android:layout_height="wrap_content"
+            android:text="@string/chicken_served_time"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            app:layout_constraintTop_toBottomOf="@+id/tChickenServedAtDescription" />
+
+        <TextView
+            android:id="@+id/tChickenServedTimeDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/chicken_served_time_description"
+            app:layout_constraintTop_toBottomOf="@+id/tChickenServedTime" />
+
+        <TextView
+            android:id="@+id/tChickenPrice"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/chicken_price"
+            app:layout_constraintTop_toBottomOf="@+id/tChickenServedTimeDescription" />
+
+        <TextView
+            android:id="@+id/tChickenPriceDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/chicken_price_description"
+            app:layout_constraintTop_toBottomOf="@+id/tChickenPrice" />
+
+        <TextView
+            android:id="@+id/tChickenBestServedWith"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/chicken_best_served_with"
+            app:layout_constraintTop_toBottomOf="@+id/tChickenPriceDescription" />
+
+        <TextView
+            android:id="@+id/tChickenBestServedWithDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/chicken_best_served_with_description"
+            app:layout_constraintTop_toBottomOf="@+id/tChickenBestServedWith" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

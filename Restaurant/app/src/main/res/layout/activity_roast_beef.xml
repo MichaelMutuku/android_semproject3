@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="#ECF2F0">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".RoastBeef">
+
+        <ImageView
+            android:id="@+id/imageRBeef"
+            android:layout_width="0dp"
+            android:layout_height="366dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/choma" />
+
+        <TextView
+            android:id="@+id/tRBeefTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/rBeef_title"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageRBeef"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tRBeefServedAt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/rBeef_served_at"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tRBeefTitle" />
+
+        <TextView
+            android:id="@+id/tRBeefServedAtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/rBeef_served_at_description"
+            app:layout_constraintTop_toBottomOf="@+id/tRBeefServedAt"/>
+
+        <TextView
+            android:id="@+id/tRBeefServedTime"
+            android:layout_height="wrap_content"
+            android:text="@string/rBeef_served_time"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            app:layout_constraintTop_toBottomOf="@+id/tRBeefServedAtDescription" />
+
+        <TextView
+            android:id="@+id/tRBeefServedTimeDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/rBeef_served_time_description"
+            app:layout_constraintTop_toBottomOf="@+id/tRBeefServedTime" />
+
+        <TextView
+            android:id="@+id/tRBeefPrice"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/rBeef_price"
+            app:layout_constraintTop_toBottomOf="@+id/tRBeefServedTimeDescription" />
+
+        <TextView
+            android:id="@+id/tRBeefPriceDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/rBeef_price_description"
+            app:layout_constraintTop_toBottomOf="@+id/tRBeefPrice" />
+
+        <TextView
+            android:id="@+id/tRBeefBestServedWith"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/rBeef_best_served_with"
+            app:layout_constraintTop_toBottomOf="@+id/tRBeefPriceDescription" />
+
+        <TextView
+            android:id="@+id/tRBeefBestServedWithDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/rBeef_best_served_with_description"
+            app:layout_constraintTop_toBottomOf="@+id/tRBeefBestServedWith" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

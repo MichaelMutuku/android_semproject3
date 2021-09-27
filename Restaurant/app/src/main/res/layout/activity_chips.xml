@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="#ECF2F0">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Chips">
+
+        <ImageView
+            android:id="@+id/imageChips"
+            android:layout_width="0dp"
+            android:layout_height="366dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chips" />
+
+        <TextView
+            android:id="@+id/tChipsTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/chips_title"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageChips"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tChipsServedAt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/chips_served_at"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tChipsTitle" />
+
+        <TextView
+            android:id="@+id/tChipsServedAtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/chips_served_at_description"
+            app:layout_constraintTop_toBottomOf="@+id/tChipsServedAt"/>
+
+        <TextView
+            android:id="@+id/tChipsServedTime"
+            android:layout_height="wrap_content"
+            android:text="@string/chips_served_time"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            app:layout_constraintTop_toBottomOf="@+id/tChipsServedAtDescription" />
+
+        <TextView
+            android:id="@+id/tChipsServedTimeDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/chips_served_time_description"
+            app:layout_constraintTop_toBottomOf="@+id/tChipsServedTime" />
+
+        <TextView
+            android:id="@+id/tChipsPirce"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/chips_price"
+            app:layout_constraintTop_toBottomOf="@+id/tChipsServedTimeDescription" />
+
+        <TextView
+            android:id="@+id/tChipsPriceDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/chips_price_description"
+            app:layout_constraintTop_toBottomOf="@+id/tChipsPirce" />
+
+        <TextView
+            android:id="@+id/tChipsBestServedWith"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/chips_best_served_with"
+            app:layout_constraintTop_toBottomOf="@+id/tChipsPriceDescription" />
+
+        <TextView
+            android:id="@+id/tChipsBestServedWithDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/chips_best_served_with_description"
+            app:layout_constraintTop_toBottomOf="@+id/tChipsBestServedWith" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

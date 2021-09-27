@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="#ECF2F0">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Mukimo">
+
+        <ImageView
+            android:id="@+id/imageMukimo"
+            android:layout_width="0dp"
+            android:layout_height="366dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mukimo" />
+
+        <TextView
+            android:id="@+id/tMukimoTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/mukimo_title"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageMukimo"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tMukimoServedAt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/mukimo_served_at"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tMukimoTitle" />
+
+        <TextView
+            android:id="@+id/tMukimoServedAtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/mukimo_served_at_description"
+            app:layout_constraintTop_toBottomOf="@+id/tMukimoServedAt"/>
+
+        <TextView
+            android:id="@+id/tMukimoServedTime"
+            android:layout_height="wrap_content"
+            android:text="@string/mukimo_served_time"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            app:layout_constraintTop_toBottomOf="@+id/tMukimoServedAtDescription" />
+
+        <TextView
+            android:id="@+id/tMukimoServedTimeDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/mukimo_served_time_description"
+            app:layout_constraintTop_toBottomOf="@+id/tMukimoServedTime" />
+
+        <TextView
+            android:id="@+id/tMukimoPrice"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/mukimo_price"
+            app:layout_constraintTop_toBottomOf="@+id/tMukimoServedTimeDescription" />
+
+        <TextView
+            android:id="@+id/tMukimoPriceDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/mukimo_price_description"
+            app:layout_constraintTop_toBottomOf="@+id/tMukimoPrice" />
+
+        <TextView
+            android:id="@+id/tMukimoBestServedWith"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/mukimo_best_served_with"
+            app:layout_constraintTop_toBottomOf="@+id/tMukimoPriceDescription" />
+
+        <TextView
+            android:id="@+id/tMukimoBestServedWithDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/mukimo_best_served_with_description"
+            app:layout_constraintTop_toBottomOf="@+id/tMukimoBestServedWith" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

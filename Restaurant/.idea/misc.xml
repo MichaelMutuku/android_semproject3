@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/usables/Restaurant/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_beef.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_chef_of_the_month.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_chicken.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_chips.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_chui.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_find_us.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_fish.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_foods.xml" value="0.23125" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_githeri.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_mukimo.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_mwewe.xml" value="0.25" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_pilau.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_pork.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_roast_beef.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_simba.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_things.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/activity_ugali.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/layout/list_item.xml" value="0.209375" />
+        <entry key="..\:/usables/Restaurant/app/src/main/res/menu/menu_item.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

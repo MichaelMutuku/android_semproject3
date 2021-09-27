@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="#ECF2F0">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Pilau">
+
+        <ImageView
+            android:id="@+id/imagePilau"
+            android:layout_width="0dp"
+            android:layout_height="366dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pilau" />
+
+        <TextView
+            android:id="@+id/tPilauTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/pilau_title"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imagePilau"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tPilauServedAt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/pilau_served_at"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tPilauTitle" />
+
+        <TextView
+            android:id="@+id/tPilauServedAtDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/pilau_served_at_description"
+            app:layout_constraintTop_toBottomOf="@+id/tPilauServedAt"/>
+
+        <TextView
+            android:id="@+id/tPilauServedTime"
+            android:layout_height="wrap_content"
+            android:text="@string/pilau_served_time"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            app:layout_constraintTop_toBottomOf="@+id/tPilauServedAtDescription" />
+
+        <TextView
+            android:id="@+id/tPilauServedTimeDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/pilau_served_time_description"
+            app:layout_constraintTop_toBottomOf="@+id/tPilauServedTime" />
+
+        <TextView
+            android:id="@+id/tPilauPrice"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/pilau_price"
+            app:layout_constraintTop_toBottomOf="@+id/tPilauServedTimeDescription" />
+
+        <TextView
+            android:id="@+id/tPilauPriceDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/pilau_price_description"
+            app:layout_constraintTop_toBottomOf="@+id/tPilauPrice" />
+
+        <TextView
+            android:id="@+id/tPilauBestServedWith"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="40sp"
+            android:text="@string/pilau_best_served_with"
+            app:layout_constraintTop_toBottomOf="@+id/tPilauPriceDescription" />
+
+        <TextView
+            android:id="@+id/tPilauBestServedWithDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textSize="25sp"
+            android:text="@string/pilau_best_served_with_description"
+            app:layout_constraintTop_toBottomOf="@+id/tPilauBestServedWith" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
